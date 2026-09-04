@@ -1,0 +1,13 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.pytest_cache/
+.pytest_cache/
+
+# Streamlit logs
+.streamlit/credentials.toml
+
+# OS
+.DS_Store
+Thumbs.db
