@@ -1,0 +1,76 @@
+{
+  "status": "PASS",
+  "health_score": 100.0,
+  "summary": {
+    "total_matches": 1243,
+    "total_deliveries": 295732,
+    "seasons_covered": [
+      "2007",
+      "2009",
+      "2011",
+      "2012",
+      "2013",
+      "2014",
+      "2015",
+      "2016",
+      "2017",
+      "2018",
+      "2019",
+      "2020",
+      "2021",
+      "2022",
+      "2023",
+      "2024",
+      "2025",
+      "2026"
+    ]
+  },
+  "checks": {
+    "row_counts": {
+      "matches_ge_1000": true,
+      "deliveries_ge_200k": true,
+      "passed": true
+    },
+    "missing_values": {
+      "match_null_percentages": {
+        "match_id": 0.0,
+        "season": 0.0,
+        "venue": 0.0,
+        "team1": 0.0,
+        "team2": 0.0,
+        "winner": 2.01
+      },
+      "delivery_null_percentages": {
+        "match_id": 0.0,
+        "innings": 0.0,
+        "over": 0.0,
+        "ball": 0.0,
+        "batting_team": 0.0,
+        "bowling_team": 0.0,
+        "striker": 0.0,
+        "bowler": 0.0,
+        "total_runs": 0.0
+      },
+      "passed": true
+    },
+    "duplicates": {
+      "duplicate_matches": 0,
+      "exact_duplicate_deliveries": 0,
+      "passed": true
+    },
+    "domain_ranges": {
+      "valid_overs_0_to_25": true,
+      "valid_innings": true,
+      "valid_runs_per_ball_0_to_10": true,
+      "passed": true
+    },
+    "tactical_phases": {
+      "phase_distribution_percent": {
+        "Middle": 45.87,
+        "Powerplay": 31.41,
+        "Death": 22.71
+      },
+      "passed": true
+    }
+  }
+}
